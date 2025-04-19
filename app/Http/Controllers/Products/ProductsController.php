@@ -50,6 +50,7 @@ class ProductsController extends Controller
     $fishes=Product::select()->where('category_id','=',2)->orderBy('id', 'desc')->get();
     return view('products.shop',compact('categories','mostwanted','vegetables','meat','fruits','frozenfoods','fishes'));
 }
+
 public function addToCart(Request $request){
 
     $addCart=Cart::create([

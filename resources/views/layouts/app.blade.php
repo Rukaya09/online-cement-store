@@ -99,7 +99,7 @@ h1, p {
     <div id="app">
   <div class="page-header">
         <!--=============== Navbar ===============-->
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-transparent" id="page-navigation">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-transparent" id="page-navigation">
             <div class="container">
                 <!-- Navbar Brand -->
                 <a href="index.html" class="navbar-brand">
@@ -179,7 +179,7 @@ h1, p {
             </ul>
         </div>
     </div>
-</nav>
+    </nav>
   
 <main class="py-4" style="margin-top: 80px;"> 
             @yield('content')
